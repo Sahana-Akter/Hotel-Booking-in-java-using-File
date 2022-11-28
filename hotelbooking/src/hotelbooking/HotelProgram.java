@@ -243,6 +243,7 @@ public class HotelProgram //child
         {
             if (roomName.equals(myHotel[x].getName()))
             {
+                myHotel[roomNum].setName("Nobody");
                 System.out.println("Enter the new name:");
                 roomName = input.next();
                 myHotel[roomNum].setName(roomName);
